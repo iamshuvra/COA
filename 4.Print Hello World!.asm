@@ -1,7 +1,7 @@
 .MODEL SMALL
 .STACK 100H
 .DATA 
-MSG1 DB "HELLO WORLD!$"
+MSG1 DB "HELLO WORLD!$"    ;must use $ before ending
 .CODE
 
 MAIN PROC  
